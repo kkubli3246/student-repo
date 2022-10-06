@@ -42,7 +42,7 @@ public class StudentController {
 	
 	@RequestMapping("/edit/{id}")
 	public ModelAndView showEditStudentPage(@PathVariable(name = "id") int id) {
-		ModelAndView mav = new ModelAndView("new");
+		ModelAndView mav = new ModelAndView("/new");
 		
 		System.out.print(id);
 		Student std = service.get(id);
