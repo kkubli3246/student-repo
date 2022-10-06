@@ -39,7 +39,7 @@
 		<td th:text="${student.course}">Course</td>
 		<td th:text="${student.fee}">Fee</td>				
 		<td>
-			<a th:href="@{'/edit/ + ${student.id'}'}">Edit</a>
+			<a th:href="@{'/edit/' + ${student.id}}">Edit</a>
 		</td>							    
 		<td>
 			<a th:href="@{'/delete/' + ${student.id}}">Delete</a>
