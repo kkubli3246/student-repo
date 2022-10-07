@@ -98,6 +98,16 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>2.2.0</version>
+				<configuration>
+					<version>1</version>
+					<projectID>GCLOUD_CINFIG</projectID>
+				</configuration>
+				
+			</plugin>
 		</plugins>
 	</build>
 
